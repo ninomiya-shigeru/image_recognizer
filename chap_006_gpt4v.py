@@ -33,7 +33,7 @@ def main():
     )
 
     uploaded_file = st.file_uploader(
-        label='Upload your Image here😇',
+        label='ⒸShigeru Ninomiya',
         # GPT-4Vが処理可能な画像ファイルのみ許可
         type=['png', 'jpg', 'webp', 'gif']
     )
@@ -68,7 +68,7 @@ def main():
             st.write_stream(llm.stream(query))
 
     else:
-        st.write('まずは画像をアップロードしてね😇')
+        st.write('まずは画像をアップロードして質問してね😇')
 
 if __name__ == '__main__':
     main()
